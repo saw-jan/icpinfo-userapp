@@ -1,0 +1,27 @@
+@startuml
+Student -> Login: validateStudent()
+Login -> ServerRequest: getStudentDetails()
+ServerRequest --> Login: studentDetails
+Login --> Student: studentValidation
+Student -> Home: viewLecturerDetails()
+Home -> ServerRequest: getLecturerDetails()
+Home <-- ServerRequest: lecturerDetails
+Home --> Student: lecturerDetails
+Home -> ServerRequest: checkNotification()
+ServerRequest -->Home: notificationStatus
+Student ->Post: addNewPost()
+Post -> ServerRequest:addNewPost()
+ServerRequest -->Post:postAdded
+Post -->Student:postList
+Student ->Notice: getAllNotices()
+Notice -> ServerRequest:addNewPost()
+ServerRequest -->Notice:notices
+Notice -->Student:noticesList
+Student -> UpdatePassword:updatePassword()
+UpdatePassword ->ServerRequest: validatePassword()
+ServerRequest --> UpdatePassword: returnMessage
+UpdatePassword --> Student: passwordUpdated
+Student -> Logout: logout()
+Logout --> Student: logout
+
+@enduml

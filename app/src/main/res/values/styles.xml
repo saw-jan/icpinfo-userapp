@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ICP" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/DarkRed</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="colorAccent">@color/LightRed</item>
+        <item name="android:navigationBarColor">@color/DarkRed</item>
+    </style>
+
+    <style name="icpNoAction" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/DarkRed</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="colorAccent">@color/LightRed</item>
+        <item name="android:navigationBarColor">@color/DarkRed</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "250200552092",
+    "firebase_url": "https://informatics-college.firebaseio.com",
+    "project_id": "informatics-college",
+    "storage_bucket": "informatics-college.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250200552092:android:2021a6cc718a3cb2",
+        "android_client_info": {
+          "package_name": "com.jan.saw.icp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250200552092-dqcg136sujfqttoqv02u3hr3i3te0mp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7ZSy-tBeafVnq5n70Kwg7cGRg9Be3_W4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
